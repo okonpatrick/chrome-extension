@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Leads tracker",
+    "version": "1.1",
+    "browser_action": {
+        "default_icon": "appicon.png",
+        "default_title": "Leads tracker",
+        "default_popup": "chromeextension.html"
+    },
+    "description": "This is an extension that is used to save url pages",
+    "author": "Patrick Okon",
+    "permissions": [
+        "tabs"
+    ]
+}

@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 400;
+    min-height: 4000px;
+}
+
+input {
+    padding: 100;
+    size: 100px;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    padding: 10px 20px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #5f9341;
+}
+
+#input-btn {
+    background: #5f9341;
+    color: white;
+    padding: 17px 50px;
+    border-radius: 5;
+    border-width: 5;
+    background-color: green;
+    text-shadow: 5px;
+    font-size: larger;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border: 2px solid #5f9341;
+}
+#div-btn button {
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10;
+    border-width: 10;
+    background-color: green;
+    text-shadow: 10px;
+    font-size: larger;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-right: 10;
+    margin-left: 10;
+}
+
+P {
+    color:red;
+    font-weight: bold;
+    font-size: large;
+}
+
+ul {
+    color: #5f9341;
+    list-style: none;
+    padding: 0;
+    padding-left: 0;
+}
+
+li{
+    color: #5f9341;
+    margin-top: 5px;
+}
+li a {
+    color: #5f9341;
+}
+
+#delete-btn {
+    background: #19320a;
+    color: #5f9341;
+    padding: 17px 50px;
+    border-radius: 5;
+    border-width: 5;
+    border: 2px solid #5f9341;;
+    background-color: white;
+    text-shadow: 10px;
+    font-size: larger;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+#tab-btn {
+    background: #5f9341;
+    color: white;
+    padding: 17px 50px;
+    border-radius: 5;
+    border-width: 5;
+    border: 2px solid #5f9341;
+    background-color: green;
+    font-size: larger;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+.topnav a {
+        float: left;
+        color: #5f9341;
+        text-align: center;
+        padding: 10px 10px;
+        background-color: green;
+        overflow: hidden;
+        color: white;
+        font-size: larger;
+    }
+
+h1 {
+    color: red;
+}

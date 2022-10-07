@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="chromeextension.css">
+</head>
+<body>
+    <div class ="topnav"> 
+    <a class = "active" href="www.upsez.com/home">HOME</a>
+   <a href="www.upsez.com/about">ABOUT</a>
+   <a href="www.upsez.com/faq">FAQ</a>
+   <a href="www.upsez.com/faq">CONTACT</a>
+   </div>
+   <h2><br>
+   This extension is a lead tracker app. <br>
+   It gets your inputs and store them in your local storage for your future use.</h1>
+   <h3>You can also delete your events.</h2>
+    <input type="text" placeholder="Type something here.." id ="input-el">
+    <button id ="input-btn" onclick ="render()"> SAVE INPUT </button>
+    <button id="tab-btn" onclick="tabFunc()">SAVE TAB</button>
+    <button id ="delete-btn" onclick="deletebtn()"> DELETE ALL</button>
+    <ul id ="ul-el"></ul> 
+    <p id="welcome-el"></p>
+<script src ="chromeextension.js"></script>
+</body>
+<html>
+</html> 
